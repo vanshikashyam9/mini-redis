@@ -214,7 +214,7 @@ def handle_client(conn, addr):
 # THE MAIN SERVER LOOP
 # ---------------------------------------------------------------------------
 def main():
-    server_socket = socket.create_server(("localhost", 6379), reuse_port=True)
+    server_socket = socket.create_server(("0.0.0.0", 6379), reuse_port=True)
     print("Mini-Redis listening on port 6379...")
 
     while True:
