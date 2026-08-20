@@ -1,0 +1,19 @@
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+ 
+# Virtual environments
+venv/
+env/
+.venv/
+ 
+# Editor/OS junk
+.vscode/
+.idea/
+.DS_Store
+ 
+# Test cache
+.pytest_cache/
+ 
